@@ -1,0 +1,105 @@
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=0">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<script type="text/javascript">
+window.onload = function(){
+	document.querySelector(".menuMobile").addEventListener("click", function(){
+		if(document.querySelector(".menu nav ul").style.display == 'flex'){
+			document.querySelector(".menu nav ul").style.display = 'none';
+		}else{
+			document.querySelector(".menu nav ul").style.display = 'flex';
+		}
+	});
+};
+</script>
+<head>
+	<title>John Bonhan Tribute</title>
+</head>
+<body>
+<header>
+	<div class="container">
+		<div class="menu">
+			<nav>
+				<div class="menuMobile">
+					<div class="mm_line"></div>
+					<div class="mm_line"></div>
+					<div class="mm_line"></div>
+				</div>
+				<ul>
+					<li><a href="#tribute">ABOUT</a></li>
+					<li><a href="#gallery">GALLERY</a></li>
+					<li><a href="#timeline">TIMELINE</a></li>
+					<li><a href="#links">LINKS</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</header>
+<section>
+	<div class="container" id="tribute">
+		<div class="section_title">
+			<h1>John Bonham</h1>
+		</div>
+		<div class="tribute_image">
+			<img src="assets/images/johnbonham1.jpg" width="650" height="485" border="0">
+		</div>
+		<div class="lifetime">
+			<h2>1948 - 1980 (32 years old)</h2>
+		</div>
+		<p class="description">
+			<span class="highlight">John Henry Bonham</span> was an English musician and songwriter, best known as the drummer for the English rock band <span class="highlight">Led Zeppelin</span>. Esteemed for his speed, power, fast bass drumming, distinctive sound, and feel for the groove, he is regarded by many as the <span class="highlight">greatest and most influential rock drummer in history</span>.
+		</p>
+	</div>
+</section>
+<section>
+	<div class="container" id="gallery">
+		<div class="section_title">
+			<h2>Gallery</h2>
+		</div>
+		<div class="gallery_images">
+			<img src="assets/images/johnbonham2.jfif" width="350" height="350" border="2 #000">
+			<img src="assets/images/johnbonham3.jpg" width="350" height="350" border="2 #000">
+			<img src="assets/images/ledzeppelin.jpg" width="350" height="350" border="2 #000">
+		</div>
+	</div>
+</section>
+<section>
+	<div class="container" id="timeline">
+		<div class="section_title">
+			<h2>Timeline</h2>
+		</div>
+		<div class="timeline_desc">
+			<ul>
+				<li><span class="timeline_year">1948</span> Born in Redditch, Worcestershire, England.</li>
+				<li><span class="timeline_year">1964</span> Joined his first semi-professional band, Terry Webb and the Spiders.</li>
+				<li><span class="timeline_year">1968</span> Joined Led Zeppelin.</li>
+				<li><span class="timeline_year">1980</span> Year of death and Led Zeppelin disband.</li>
+			</ul>
+		</div>
+	</div>
+</section>
+<section>
+	<div class="container" id="wikipedia">
+		<p class="information">
+			For more information please visit <a href="https://en.wikipedia.org/wiki/John_Bonham">Wikipedia</a>.
+		</p>
+	</div>
+</section>
+<footer>
+	<div class="container" id="links">
+		<div class="footer_icons">
+			<a href=""><img src="assets/images/github.jpg" width="40" height="40" border="0"></a>
+			<a href="https://twitter.com/luizhmp2"><img src="assets/images/twitter.png" width="40" height="40" border="0"></a>
+			<a href="https://www.linkedin.com/in/luiz-henrique-muniz-pinheiro-b78b1180/"><img src="assets/images/linkedin.png" width="40" height="40" border="0"></a>
+			<a href="https://www.facebook.com/luizhenrique.pinheiro.16?ref=bookmarks"><img src="assets/images/facebook.png" width="40" height="40" border="0"></a>
+		</div>
+		<div class="footer_info">
+			<p>
+				Created by <a href="https://www.linkedin.com/in/luiz-henrique-muniz-pinheiro-b78b1180/">Luiz Henrique Pinheiro</a> with the purpose of practicing HTML/CSS. All credits for the design to <a href="https://github.com/brittanyrw">Brittany Walker</a>.
+			</p>
+		</div>
+	</div>
+</footer>
+</body>
+</html>
