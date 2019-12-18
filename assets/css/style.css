@@ -49,6 +49,12 @@ section{
 	border-right: solid 3px #0D160B;
 	background-color: #484F90;
 }
+.tribute_image img{
+	width: 600px;
+	height: 485px;
+	border: 0;
+
+}
 .lifetime{
 	display: flex;
 	justify-content: center;
@@ -217,12 +223,9 @@ footer{
 	}
 }
 @media (max-width: 655px){
-	.tribute_image{
-		display: flex;
-		justify-content: center;
-		margin: 10px;
-		max-width: 60%;
-		height: 60%;
+	.tribute_image img{
+		width: 500px;
+		height: 450px;
 	}
 }
 @media (max-width: 590px){
@@ -237,10 +240,15 @@ footer{
 	.description{
 		width: 60%;
 	}
+	.tribute_image img{
+		width: 400px;
+		height: 350px;
+	}
 }
 @media (max-width: 426px){
-	.tribute_image{
-		max-width: 40%;
+	.tribute_image img{
+		width: 350px;
+		height: 400px;
 	}
 	.gallery_images img {
 		width: 80%;
@@ -273,5 +281,9 @@ footer{
 @media (max-width: 330px){
 	.description{
 		width: 40%;
+	}
+	.tribute_image img{
+		width: 300px;
+		height: 400px;
 	}
 }
